@@ -19,5 +19,4 @@ else
 end
 end
 
-
 gets

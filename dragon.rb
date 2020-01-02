@@ -38,7 +38,6 @@ class Dragon
     end
   end
 
-
   def toss
     puts 'You toss ' + @name + ' up into the air.'
     puts 'He giggles, which singes your eyebrows.'

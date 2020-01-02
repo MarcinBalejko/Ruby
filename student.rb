@@ -1,5 +1,4 @@
 
-
 class Student
   def initialize(name, grade)
   @name = name

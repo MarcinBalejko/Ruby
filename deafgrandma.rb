@@ -6,7 +6,6 @@ say3 = ''
 
 while say1 != 'BYE' || say2 != 'BYE' || say3 != 'BYE'
 
-
 while say1 != 'BYE'
 
 say1 = gets.chomp

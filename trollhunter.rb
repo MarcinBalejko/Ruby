@@ -1,13 +1,8 @@
 
-
-
-
-
 class Scene
   def enter()
   end
 end
-
 
 class Engine
   def initialize(scene_map)
@@ -28,8 +23,6 @@ class Engine
   end
 end
 
-
-
 class Death < Scene
 
   @@quips = [
@@ -47,8 +40,6 @@ class Death < Scene
 
   end
 end
-
-
 
 class Tavern < Scene
   def enter()
@@ -86,7 +77,6 @@ class Tavern < Scene
   end
 end
 
-
 class CampChoice < Scene
   def enter()
     puts "It's getting dark"
@@ -113,7 +103,6 @@ class CampChoice < Scene
   end
   end
 end
-
 
 class UpperCaves < Scene
   def enter()
@@ -173,7 +162,6 @@ class UndergroundSpring
     end
   end
 end
-
 
 class Riddle < Scene
   def enter()
@@ -292,7 +280,6 @@ class Finished < Scene
   end
 end
 
-
 class PlayAgain < Scene
   def enter()
     puts "Would you like to play again? (yes/no)"
@@ -311,7 +298,6 @@ class PlayAgain < Scene
     end
   end
 end
-
 
 
 class Axe < Scene
@@ -333,8 +319,6 @@ class Axe < Scene
     end
 end
 
-
-
 class MagicSword < Scene
 
   def enter()
@@ -352,8 +336,6 @@ class MagicSword < Scene
     end
   end
 end
-
-
 
 class Map
   @@scenes = {

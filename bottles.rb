@@ -17,7 +17,6 @@ def englishNumber number
                'sixteen', 'seventeen', 'eighteen', 'nineteen']
 
 
-
   left  = number
   write = left/100
   left  = left - write*100

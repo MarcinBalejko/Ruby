@@ -1,5 +1,4 @@
 
-
 class Machine
   @@users ={}
   def initialize(username, password)

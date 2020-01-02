@@ -25,8 +25,6 @@ def pick_the_oranges
   end
 end
 
-
-
   def one_year_passes
     puts "One year passes"
     @age = @age + 1
@@ -56,8 +54,6 @@ end
   end
 
 end
-
-
 
 tree = OrangeTree.new
 command = ""

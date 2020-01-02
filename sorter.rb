@@ -1,7 +1,6 @@
 
 books = ["Harry Potter", "Misery", "King Rat", "Quo Vadis", "Snowman", "Shining"]
 
-
 class Sorter
 
 def ascending(array)

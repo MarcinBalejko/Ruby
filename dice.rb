@@ -25,5 +25,4 @@ elsif command == "no"
 end
 end
 
-
 gets
